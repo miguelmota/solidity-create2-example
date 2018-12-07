@@ -1,6 +1,6 @@
-# Solidity `create2` example
+# Solidity `CREATE2` example
 
-> Example of how to use the [`create2`](https://github.com/ethereum/EIPs/pull/1014) opcode released in the [Constantinople](https://github.com/paritytech/parity-ethereum/issues/8427) update for Ethereum.
+> Example of how to use the [`CREATE2`](https://github.com/ethereum/EIPs/pull/1014) opcode released in the [Constantinople](https://github.com/paritytech/parity-ethereum/issues/8427) update for Ethereum.
 
 ## Tutorial
 
@@ -118,7 +118,7 @@ console.log(computedAddr) // "0x45d673256f870c135b2858e593653fb22d39795f"
 console.log(await isContract(computedAddr)) // false (not deployed on-chain)
 ```
 
-You can send eth to the precomputed contract address `0x45d673256f870c135b2858e593653fb22d39795f` even though it's not deployed. Once there's eth in the contract you can deploy the contract and have the funds sent to a different address if you wish. create2 is useful because you don't need to deploy a new contract on-chain for new users; you or anyone can deploy the contract only once there's already funds in it (which the contract can have refund logic for gas).
+You can send eth to the precomputed contract address `0x45d673256f870c135b2858e593653fb22d39795f` even though it's not deployed. Once there's eth in the contract you can deploy the contract and have the funds sent to a different address if you wish. CREATE2 is useful because you don't need to deploy a new contract on-chain for new users; you or anyone can deploy the contract only once there's already funds in it (which the contract can have refund logic for gas).
 
 Let's deploy the account contract using the factory:
 
@@ -183,7 +183,7 @@ Note: if using a different mnemonic seed, update the accounts in `chain.json`
 
 ## Credits
 
-- [@stanislaw-glogowski](https://github.com/stanislaw-glogowski/create2) for initial implementation example
+- [@stanislaw-glogowski](https://github.com/stanislaw-glogowski/CREATE2) for initial implementation example
 
 ## License
 
