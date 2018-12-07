@@ -1,0 +1,22 @@
+{
+  "name": "solidity-create2-example",
+  "version": "0.0.1",
+  "description": "## Instructions",
+  "main": "truffle-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "solc": "^0.5.1",
+    "truffle": "^5.0.0-beta.2",
+    "truffle-hdwallet-provider": "0.0.6",
+    "web3": "^1.0.0-beta.36"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
