@@ -2,6 +2,8 @@ const assert = require('assert')
 const Web3 = require('web3')
 const HDWalletProvider = require('truffle-hdwallet-provider')
 
+// TODO: clean up
+
 const provider = new HDWalletProvider(
   'wine churn waste cabbage admit security brisk knife swallow fancy rib observe',
   'http://localhost:8545',

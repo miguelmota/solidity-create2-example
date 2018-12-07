@@ -1,5 +1,7 @@
 const Factory = artifacts.require('Factory')
 
+// TODO: proper tests
+
 contract('Factory', (accounts) => {
   let instance
 

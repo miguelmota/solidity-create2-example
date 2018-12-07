@@ -1,3 +1,5 @@
+// TODO: proper tests
+
 const {
   web3,
   deployFactory,
