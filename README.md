@@ -1,6 +1,6 @@
 # Solidity `create2` example
 
-> Example of how to use the `create2` opcode released in the Constantinople update for Ethereum.
+> Example of how to use the [`create2`](https://github.com/ethereum/EIPs/pull/1014) opcode released in the [Constantinople](https://github.com/paritytech/parity-ethereum/issues/8427) update for Ethereum.
 
 ## Tutorial
 
@@ -145,7 +145,7 @@ Example code found [here](./test/).
 
 ## Development
 
-Download Parity binary from [releases](https://github.com/paritytech/parity-ethereum/releases) page:
+Download Parity binary from [releases](https://github.com/paritytech/parity-ethereum/releases) page (at the time of this writing Parity is only full client that supports the new opcode):
 
 ```bash
 make download/parity/mac
@@ -174,6 +174,12 @@ Test contracts:
 ```bash
 make test
 ```
+
+Note: if using a different mnemonic seed, update the accounts in `chain.json`
+
+## Resources
+
+- [EIP 1014: Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)
 
 ## Credits
 
