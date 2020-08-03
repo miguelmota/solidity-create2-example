@@ -148,13 +148,13 @@ Example code found [here](./test/).
 Download Parity binary from [releases](https://github.com/paritytech/parity-ethereum/releases) page (at the time of this writing Parity is only full client that supports the new opcode):
 
 ```bash
-make download/parity/mac
+make download-parity-mac
 ```
 
 Start parity:
 
 ```bash
-make start/parity
+make start-parity
 ```
 
 Compile contracts:
